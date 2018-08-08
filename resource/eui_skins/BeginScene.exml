@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BeginSceneSkin" height="1163" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="640" currentState="0">
+	<w:Config id="1650e706f19" ></w:Config>
+	<e:Image id="begin" left="0" right="0" top="0" bottom="0" alpha="0.95" source="file:///e%3A/code/game/resource/assets/begin.png"/>
+	<e:Image id="title" width="348" height="116" x="146" y="220" source="file:///e%3A/code/game/resource/assets/title.png" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Button id="start" label="" y="820" width="288" height="128" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="file:///e%3A/code/game/resource/assets/start.png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="bottom_img" width="640" height="136" x="0" y="1027" anchorOffsetY="0" source="file:///e%3A/code/game/resource/assets/black.png" alpha="0.25"/>
+	<e:Button id="rank" label="" x="106" y="1055" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="file:///e%3A/code/game/resource/assets/rank.png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

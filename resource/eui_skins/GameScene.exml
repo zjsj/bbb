@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1650e716d62" ></w:Config>
+	<e:Group id="blockPanel" left="0" right="0" top="0" bottom="0">
+		<e:Image id="bg" left="0" right="0" top="0" bottom="0" source="file:///e%3A/code/game/resource/assets/bgd.jpeg"/>
+		<e:Image id="i" width="48" height="130" x="204" y="764" source="file:///e%3A/code/game/resource/assets/piece.png"/>
+		<e:Label id="scoreLabel" text="0" x="100" y="100" width="51" height="90" size="90" fontFamily="Times" textColor="0x160101"/>
+	</e:Group>
+</e:Skin>
